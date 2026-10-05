@@ -1,0 +1,12 @@
+# Dipakai HANYA jika document root hosting tidak bisa diarahkan ke folder /public
+# (mis. project di-upload langsung ke public_html). Semua request diteruskan ke /public.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(\.env|composer\.(json|lock)|artisan|storage/|vendor/|database/|app/|config/|routes/|bootstrap/|tests/|resources/) - [F,L]
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
