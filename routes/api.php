@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 | KasirKita REST API  (prefix: /api)
 |--------------------------------------------------------------------------
-| Semua endpoint selain register/login wajib header:
-|   Authorization: Bearer <token>
-|   Accept: application/json
 */
 
 Route::middleware('throttle:auth')->group(function () {
