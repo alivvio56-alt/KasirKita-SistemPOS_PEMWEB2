@@ -2,7 +2,9 @@
 > Sistem POS Kasir Kedai Kopi & Roti — pesanan, stok, dan laporan dalam satu aplikasi
 >
 > c2.athafa.cloud
+> 
 > admin@kasirkita.test / kasir@kasirkita.test
+> 
 > password123
 
 ---
