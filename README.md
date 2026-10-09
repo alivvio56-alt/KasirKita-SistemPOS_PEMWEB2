@@ -20,8 +20,8 @@
 | No | Nama Lengkap | NIM | Shift Awal | Shift Akhir | Jobdesk / Kontribusi | Link Video Penjelasan |
 |---|---|---|---|---|---|---|
 | 1 | David Ananta Nugraha | H1H024025 | D | C | Frontend | https://youtu.be/Hv7Rz5ojF9Q?si=iF94uB0O0rJcqGpL |
-| 2 | Yogi Ferdiansyah Amta Miluloh | H1H024027 | C | C | Database, Model, Bussiness Process | https://youtu.be/Pqt7bgp8OfU?si=RKZeLA60FRrhtl6d |
-| 3 | Ardhis Alivio Rajendra | H1H024031 | A | C | REST API, Auth & Otorisasi | https://youtu.be/mrpZbAzJqTQ?si=Wh8TwBO7yy5GNmEu |
+| 2 | Yogi Ferdiansyah Amta Miluloh | H1H024027 | C | C | Database, Model, Bussiness Process | https://youtu.be/mrpZbAzJqTQ?si=Wh8TwBO7yy5GNmEu |
+| 3 | Ardhis Alivio Rajendra | H1H024031 | A | C | REST API, Auth & Otorisasi | https://youtu.be/Pqt7bgp8OfU?si=RKZeLA60FRrhtl6d |
 
 ---
 
