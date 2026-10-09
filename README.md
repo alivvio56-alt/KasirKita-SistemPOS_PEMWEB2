@@ -4,8 +4,8 @@
 ---
 
 ## 📌 Informasi Kelompok
-- **Nomor Kelompok:** [Contoh: Kelompok 01]
-- **Shift Praktikum:** [Contoh: Shift A]
+- **Nomor Kelompok:** 2
+- **Shift Praktikum:** C
 
 ---
 
