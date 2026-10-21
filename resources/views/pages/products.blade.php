@@ -12,7 +12,7 @@
         <input class="input grow" type="search" name="search" placeholder="Cari nama atau SKU…" aria-label="Cari produk">
         <select class="input" name="category_id" id="catFilter" aria-label="Kategori"><option value="">Semua kategori</option></select>
         <select class="input" name="sort" aria-label="Urutkan">
-            <option value="name">Nama A–Z</option><option value="-price">Harga tertinggi</option><option value="price">Harga terendah</option>
+            <option value="name">Nama A-Z</option><option value="-price">Harga tertinggi</option><option value="price">Harga terendah</option>
             <option value="stock">Stok paling sedikit</option><option value="-created_at">Terbaru</option>
         </select>
         <label class="check"><input type="checkbox" name="low_stock"> Stok menipis</label>
