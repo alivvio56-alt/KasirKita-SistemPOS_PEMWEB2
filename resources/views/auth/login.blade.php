@@ -16,13 +16,6 @@
                 <button class="btn btn-primary btn-block" type="submit">Masuk</button>
             </form>
             <p class="small muted" style="margin-top:16px">Belum punya akun kasir? <a href="/register">Daftar di sini</a></p>
-            <div class="demo">
-                <b>Akun demo</b> (password <span class="mono">password123</span>)
-                <div class="btn-group">
-                    <button class="btn btn-sm" type="button" data-demo="admin@kasirkita.test">Admin</button>
-                    <button class="btn btn-sm" type="button" data-demo="kasir@kasirkita.test">Kasir</button>
-                </div>
-            </div>
         </div>
     </main>
 </div>
