@@ -15,12 +15,13 @@ use Illuminate\Support\Facades\Route;
 | KasirKita REST API  (prefix: /api)
 |--------------------------------------------------------------------------
 */
-
+//endpoint untuk register dan login, dibatasi dengan rate limit
 Route::middleware('throttle:auth')->group(function () {
     Route::post('register', [AuthController::class, 'register']);
     Route::post('login', [AuthController::class, 'login']);
 });
 
+// middleware autentikasi dan active user untuk semua route berikutnya
 Route::middleware(['auth:sanctum', 'active'])->group(function () {
     // Auth
     Route::get('me', [AuthController::class, 'me']);
@@ -46,6 +47,6 @@ Route::middleware(['auth:sanctum', 'active'])->group(function () {
     Route::patch('orders/{order}/status', [OrderController::class, 'updateStatus']);
     Route::post('orders/{order}/payment', [OrderController::class, 'pay']);
 
-    // Manajemen pengguna (admin)
+    // endpoint Manajemen pengguna (admin)
     Route::apiResource('users', UserController::class);
 });
